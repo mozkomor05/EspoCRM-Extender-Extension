@@ -23,8 +23,9 @@ View Extender is a tool for EspoCRM developers, which allows to extend any (core
 
 ## Usage
 
-1. Define the view extension mapping in `app.client.viewExtensions` metadata.
-2. Create the view extension file and extend the view using the `extend` function or modern ESM syntax (experimental).
+1. Install the [latest release](https://github.com/mozkomor05/EspoCRM-Extender-Extension/releases/latest) of the extension.
+2. Define the view extension mapping in `app.client.viewExtensions` metadata.
+3. Create the view extension file and extend the view using the `extend` function or modern ESM syntax (experimental).
 
 `extend` signatures:
 
@@ -51,7 +52,9 @@ function extend(id: string, dependencyList: string[], callback: (dep: Dep) => un
 }
 ```
 
-`client/custom/src/extensions/view/detail.js`o
+NOTE: If using in a custom module, make sure its order is greater than 11.
+
+`client/custom/src/extensions/view/detail.js`
 
 ```js
 extend(Dep => {
