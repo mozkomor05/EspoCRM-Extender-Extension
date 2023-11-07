@@ -87,4 +87,4 @@ export default class extends DetailView {
 
 ## Acknowledgements
 
-A big thanks to @eymen-elkum, whose great extensions inspired me to create this tool.
+A big thanks to [@eymen-elkum](https://github.com/eymen-elkum), whose great extensions inspired me to create this tool.
