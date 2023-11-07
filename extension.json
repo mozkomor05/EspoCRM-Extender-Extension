@@ -1,0 +1,13 @@
+{
+    "module": "Extender",
+    "name": "Extender",
+    "description": "Provides ability to extend views.",
+    "author": "David Moškoř",
+    "bundled": true,
+    "acceptableVersions": [
+        ">=7.3.0"
+    ],
+    "php": [
+        ">=8.0"
+    ]
+}

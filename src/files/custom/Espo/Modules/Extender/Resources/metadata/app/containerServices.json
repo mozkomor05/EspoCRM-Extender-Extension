@@ -1,0 +1,5 @@
+{
+    "clientManager": {
+        "className": "Espo\\Modules\\Extender\\Core\\Utils\\ClientManager"
+    }
+}
